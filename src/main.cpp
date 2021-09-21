@@ -91,8 +91,8 @@ class BLECommunicationManager{
     // Set outgoing to char array x
     static void setOutgoingTo(char outgoing[]){
       txChar.setValue(outgoing);
-      // Serial.println("Set tx to:");
-      // Serial.println(outgoing);
+      Serial.println("Set tx to:");
+      Serial.println(outgoing);
     }
     
     // Set up BLE communication variables
